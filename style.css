@@ -1,4 +1,3 @@
-/* --- Global Styles --- */
 * {
     margin: 0;
     padding: 0;
@@ -14,7 +13,6 @@ body {
     min-height: 100vh;
 }
 
-/* --- Header Section --- */
 .header {
     width: 100%;
     padding: 20px 40px;
@@ -28,9 +26,8 @@ body {
     margin-left: -30px;
 }
 
-/* --- Main Container --- */
 .main-container {
-    background-color: #832C2D; /* Primary dark red background */
+    background-color: #832C2D; 
     flex: 1;
     display: flex;
     justify-content: center;
@@ -53,7 +50,6 @@ body {
     gap: 60px;
 }
 
-/* --- Left Column: Info Section --- */
 .info-section {
     flex: 1;
     padding-top: 60px;
@@ -89,10 +85,6 @@ body {
     
 }
 
-
-
-
-/* --- Right Column: Form Section --- */
 .form-section {
     flex: 1;
     max-width: 500px;
@@ -119,7 +111,6 @@ body {
     color: #e0bebe;
 }
 
-/* Award Header */
 .award-header {
     margin-top: 30px;
     margin-bottom: 15px;
@@ -139,7 +130,6 @@ body {
     font-weight: bold;
 }
 
-/* Checkbox & Textarea Block */
 .award-block {
     margin-bottom: 15px;
 }
@@ -166,7 +156,6 @@ body {
     background-color: #ffffff;
 }
 
-/* Display checkmark icon when checked */
 .checkbox-group input[type="checkbox"]:checked::after {
     content: '✔';
     font-size: 10px;
